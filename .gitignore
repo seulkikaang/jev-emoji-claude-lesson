@@ -1,0 +1,31 @@
+# Build output
+.build/
+build/
+dist/
+*.zip
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Local work records and assistant state (not part of the public project)
+dev/
+.claude/
+.omc/
+CLAUDE.md
+AGENTS.md
+
+# Screen recordings and captures
+screenshots/
+recordings/
+*.mov
+*.mp4
+
+# Never commit secrets. The app stores the TypeSafe key in the macOS Keychain only.
+.env
+.env.*
+*.key
+*.pem
+*.p12
